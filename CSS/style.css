@@ -1,0 +1,55 @@
+body{
+  width:1000px;
+  margin-left:5px;
+}
+
+h2{
+  font-size: 24px;
+  margin:15px 0;
+}
+
+.title{
+  font-size:18px;
+  margin:15px 0;
+}
+
+.blog__title{
+  font-weight: bold;
+  margin: 8px 0;
+}
+span{
+  font-weight: bold;
+}
+
+.form{
+  position: relative;
+  width:400px;
+}
+.form-item {
+  padding: 3px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.form-item-label {
+  width: 50%;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+.form-item-btn{
+  position:absolute;
+  top:210px;
+  display: flex;
+}
+
+.submit{
+  margin-left:3px;
+}
+
+.form-item-input{
+  width: 100%;
+  margin-left:0;
+}

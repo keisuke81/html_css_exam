@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Exam_css</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gorditas&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gorditas&family=Noto+Serif+JP:wght@900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <h2>キャッチコピー</h2>
+
+  <div class="about">
+    <h3 class="title">About</h3>
+    <p class="about__content">COACHTECH(コーチテック)はフリーランス特化型のオンラインコーチングプログラミングスクールです。<br>プログラミング未経験の方でも、<span>「独自の学習ノウハウ」</span>でフリーランスエンジニアを目指すことができます。</p>
+  </div>
+  <!--ここからブログ-->
+  <div class="blog">
+    <h3 class="title">ブログ</h3>
+    <div class="blog__image1">
+      <img src="image/blog__eyecatch1.jpg" alt="">
+    </div>
+    <p class="blog__title">コーチテックブログのタイトルがここには入ります。</p>
+    <div class="blog__image2">
+      <img src="image/blog__eyecatch2.jpg" alt="">
+    </div>
+    <p class="blog__title">コーチテックブログのタイトルがここには入ります。</p>
+    <div class="blog__image3">
+      <img src="image/blog__eyecatch3.jpg" alt="">
+    </div>
+    <p class="blog__title">コーチテックブログのタイトルがここには入ります。</p>
+  </div>
+　<!--ここから問い合わせ-->
+　<div class="contact">
+    <h3 class="title">問い合わせ</h3>
+    <form class="form" name="contact" method="POST">
+      <div class="form-item">
+        <p class="form-item-label">
+          お名前
+        </p>
+        <input type="text" name="name" class="form-item-input" >
+      </div>
+      <div class="form-item">
+        <p class="form-item-label">メールアドレス</p>
+        <input type="email" name="email" class="form-item-input" >
+      </div>
+      <div class="form-item">
+        <p class="form-item-label">用件</p>
+        <select  name="select" class="form-item-input" >
+          <option value="広告掲載について">広告掲載について</option>
+          <option value="その他">その他</option>
+        </select>  
+      </div>
+      <div class="form-item">
+        <p class="form-item-label">内容</p>
+        <textarea name="textarea" class="form-item-input" cols="60" rows="8"></textarea>
+      <div class="form-item-btn">
+        <input type="submit" value="削除" class="delate">
+        <input type="submit" value="送信" class="submit">
+      </div>
+    </form>
+  </div>
+</body>
